@@ -1,5 +1,5 @@
 
-class classeHeroi {
+class ClasseHeroi {
     constructor(nome, idade, tipo) {
     this.nome = nome
     this.idade = idade
@@ -25,7 +25,7 @@ class classeHeroi {
             this.tipoAtaque = "Usando Shuriken"
             break
 
-            default: this.tipoAtaque = "Usnado Ataque"
+            default: this.tipoAtaque = "Usnado Ataque Desconhecido"
         }
     
         console.log(`O ${this.tipo} atacou ${this.tipoAtaque}`)
@@ -33,11 +33,11 @@ class classeHeroi {
 } 
 
 // Declarando as variáveis que serão utilizadas e atribuindo seus valores.
-let Mago = new classeHeroi ("Lukas", 104, "Mago")
-let Guerreiro = new classeHeroi ("Scott", 32, "Guerreiro")
-let Monge = new classeHeroi ("Junior", 5000, "Monge")
-let Ninja = new classeHeroi ("Jeff", 26, "Ninja")
-let Goblin = new classeHeroi ("Stevan", 78, "Goblin")
+let Mago = new ClasseHeroi ("Lukas", 104, "Mago")
+let Guerreiro = new ClasseHeroi ("Scott", 32, "Guerreiro")
+let Monge = new ClasseHeroi ("Junior", 5000, "Monge")
+let Ninja = new ClasseHeroi ("Jeff", 26, "Ninja")
+let Goblin = new ClasseHeroi ("Stevan", 78, "Goblin")
 
 // Ativando os Métodos
 Mago.ataque()
