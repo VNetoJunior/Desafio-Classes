@@ -8,8 +8,6 @@ class classeHeroi {
 
     ataque() {
 
-        let ataque = ""
-
         switch(true) {
             case (this.tipo === "Mago") :
             this.tipoAtaque = "Usando Magia"
@@ -39,9 +37,11 @@ let Mago = new classeHeroi ("Lukas", 104, "Mago")
 let Guerreiro = new classeHeroi ("Scott", 32, "Guerreiro")
 let Monge = new classeHeroi ("Junior", 5000, "Monge")
 let Ninja = new classeHeroi ("Jeff", 26, "Ninja")
+let Goblin = new classeHeroi ("Stevan", 78, "Goblin")
 
 // Ativando os Métodos
 Mago.ataque()
 Guerreiro.ataque()
 Monge.ataque()
 Ninja.ataque()
+Goblin.ataque()
